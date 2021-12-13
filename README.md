@@ -10,7 +10,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
   - _Links to all Playbook Files._
 
-  [Initial Playbook](/Ansible/Ansible/my-playbook-post.yml)
+  [Initial Playbook](/Ansible/my-playbook-post.yml)
 
   [ELK Playbook](/Ansible/install-elk.yml)
 
