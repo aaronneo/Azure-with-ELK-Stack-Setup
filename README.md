@@ -66,10 +66,10 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses  |
 |----------|---------------------|-----------------------|
-| Jump Box | No                  | Administrators set IP |
-| VM-1     | No                  | 52.255.140.67         |
-| VM-2     | No                  | 52.255.140.67         |
-| ESP-VM1  | Yes                 | 23.101.124.74         |
+| Jump Box | yes                 | Administrators set IP |
+| VM-1     | No                  | 10.0.0.4              |
+| VM-2     | No                  | 10.0.0.4              |
+| ESP-VM1  | no                  | 10.0.0.4              |
 
 ### Elk Configuration
 
@@ -116,4 +116,4 @@ SSH into the control node and follow the steps below:
 - _Which URL do you navigate to in order to check that the ELK server is running?_
   - You will need to proceed to the Kibana website by using the following URL http://[your.VM.IP]:5601/app/kibana. This is accomplished with the public IP address of the established ELK server we created.
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+
