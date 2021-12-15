@@ -1,4 +1,4 @@
-# Project1_Azure_ELK_STACK
+#Azure ELK Stack Setup
 A collection of work from my first half of Cybersecurity Certification learning. Including my first Project with Azure.
 ## Automated ELK Stack Deployment
 
